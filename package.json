@@ -1,0 +1,16 @@
+{
+  "name": "currentgitversion",
+  "version": "1.0.1",
+  "description": "通过Npm获取git提交信息，用于vue-cli打包版本记录",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "version",
+    "git",
+    "vue"
+  ],
+  "author": "zhuangqy",
+  "license": "ISC"
+}
