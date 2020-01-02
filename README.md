@@ -7,7 +7,7 @@ npm install currentgitversion --save-dev
 ## Quick Start
 在vue-cli下build/webpack.prod.conf.js
 ```javascript
-增加：const BuildInfo = require('./version')
+增加：const BuildInfo = require('currentgitversion')
 在new HtmlWebpackPlugin下增加获取版本数据：
 buildInfo: JSON.stringify(BuildInfo)
 
@@ -18,7 +18,7 @@ buildInfo: JSON.stringify(BuildInfo)
 ```javascript
 'use strict'
 ...
-const BuildInfo = require('./version') //添加此处代码
+const BuildInfo = require('currentgitversion') //添加此处代码
 
 const webpackConfig = merge(baseWebpackConfig, {
   ....
